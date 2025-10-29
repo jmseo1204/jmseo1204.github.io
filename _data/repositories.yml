@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jmseo1204
+ # - alshedivat
 
-repo_description_lines_max: 2
+repo_description_lines_max: 1
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - jmseo1204/Multi_cam_self_calibrating_LIVO
+  - jmseo1204/Text-to-Music_Generation_Enhancing_Instrument-Level_Controllability
+  - jmseo1204/Kaggle_KG_distilation_to_classify_noised_label
+  - jmseo1204/NOISY_IMAGE_SEQ_TO_TEXT_SEQ
+  - jmseo1204/COXWAVE_RAG_AND_KNOWLEDGE_GRAPH
+  
