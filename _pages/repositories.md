@@ -2,7 +2,7 @@
 layout: page
 permalink: /Repositories/
 title: Repositories
-description: https://github.com/jmseo1204/
+description: You can find more projects on https://github.com/jmseo1204/
 nav: true
 nav_order: 4
 ---
