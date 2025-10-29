@@ -37,6 +37,6 @@ Therefore, Computer Vision is my most interesting research field, especially 3D 
 
 To refresh myself, I enjoy lifting weights, writing my own novels, and consuming any type of media based on Science Fiction. I love almost every kind of physical activity, except for ball games :(
 
-Also, my daily life, including my productivity, wholly counts on music: R&B/soul and Bossa nova for chilling, and high-BPM house and orchestral game music for focusing.
+Also, my daily life, including my productivity, wholly counts on music: R&B/soul and Bossa nova for chilling, and house and high-BPM orchestral game music for focusing.
 
 I welcome any kind of meeting, including a coffee chat, so feel free to contact me if you are interested!
