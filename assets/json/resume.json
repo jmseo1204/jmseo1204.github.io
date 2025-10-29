@@ -48,9 +48,7 @@
       "startDate": "2024-06",
       "endDate": "Present",
       "summary": "Advisor: Prof. Jaesik Park",
-      "highlights": [
-        "Researched on stable odometry update with multi-cam LIVO SLAM frameworks"
-      ]
+      "highlights": ["Researched on stable odometry update with multi-cam LIVO SLAM frameworks"]
     },
     {
       "name": "KAIST Kim Jae-chul Al Graduate School",
@@ -59,9 +57,7 @@
       "startDate": "2024-09",
       "endDate": "2024-12",
       "summary": "Advisor: Prof. Kijung Shin",
-      "highlights": [
-        "Personal research on Graph based Item-to-Item Recommendation System to improve item connectivity"
-      ]
+      "highlights": ["Personal research on Graph based Item-to-Item Recommendation System to improve item connectivity"]
     }
   ],
   "work": [
@@ -72,9 +68,7 @@
       "startDate": "2022-04",
       "endDate": "2024-01",
       "summary": "",
-      "highlights": [
-        "Maintained internal network systems, including firmware versioning and IP address management for IT infrastructure"
-      ]
+      "highlights": ["Maintained internal network systems, including firmware versioning and IP address management for IT infrastructure"]
     }
   ],
   "industry": [
@@ -152,9 +146,7 @@
     {
       "name": "Statistical Validation of ESG Survey Data",
       "summary": "",
-      "highlights": [
-        "Verified construct validity and reliability of ESG survey responses via Exploratory Factor Analysis using SPSS"
-      ],
+      "highlights": ["Verified construct validity and reliability of ESG survey responses via Exploratory Factor Analysis using SPSS"],
       "startDate": "2024-08",
       "endDate": "2024-08",
       "url": ""
@@ -162,9 +154,7 @@
     {
       "name": "Image Classification with Noisy Labels",
       "summary": "",
-      "highlights": [
-        "Designed a robust training model structure by co-teaching networks to solve a Kaggle contest hosted by Prof. Jonghyun Choi"
-      ],
+      "highlights": ["Designed a robust training model structure by co-teaching networks to solve a Kaggle contest hosted by Prof. Jonghyun Choi"],
       "startDate": "2024-07",
       "endDate": "2024-07",
       "url": ""
@@ -172,9 +162,7 @@
     {
       "name": "Reordering Twisted Image Sequences into Coherent Text",
       "summary": "",
-      "highlights": [
-        "Developed an attention-based sequence model to reorder jumbled image inputs using ordered text labels"
-      ],
+      "highlights": ["Developed an attention-based sequence model to reorder jumbled image inputs using ordered text labels"],
       "startDate": "2024-06",
       "endDate": "2024-06",
       "url": ""
@@ -241,52 +229,31 @@
       "name": "Artificial Intelligence",
       "level": "",
       "icon": "",
-      "keywords": [
-        "Generative AI (CV, NLP)",
-        "Recommender Systems",
-        "Graph Neural Networks",
-        "Reinforcement Learning on LLMs"
-      ]
+      "keywords": ["Generative AI (CV, NLP)", "Recommender Systems", "Graph Neural Networks", "Reinforcement Learning on LLMs"]
     },
     {
       "name": "Mathematics",
       "level": "",
       "icon": "",
-      "keywords": [
-        "Vector Calculus",
-        "Linear Algebra",
-        "Signal Processing",
-        "Probability Theory",
-        "Mathematical Statistics"
-      ]
+      "keywords": ["Vector Calculus", "Linear Algebra", "Signal Processing", "Probability Theory", "Mathematical Statistics"]
     },
     {
       "name": "Programming Language",
       "level": "",
       "icon": "",
-      "keywords": [
-        "C/C++",
-        "MATLAB",
-        "Python (PyTorch)"
-      ]
+      "keywords": ["C/C++", "MATLAB", "Python (PyTorch)"]
     },
     {
       "name": "Hardware Description Language",
       "level": "",
       "icon": "",
-      "keywords": [
-        "Verilog"
-      ]
+      "keywords": ["Verilog"]
     },
     {
       "name": "Others",
       "level": "",
       "icon": "",
-      "keywords": [
-        "LaTeX Editor (Overleaf)",
-        "3D Modeling (Fusion 360)",
-        "Statistical Software (SPSS)"
-      ]
+      "keywords": ["LaTeX Editor (Overleaf)", "3D Modeling (Fusion 360)", "Statistical Software (SPSS)"]
     }
   ],
   "languages": [

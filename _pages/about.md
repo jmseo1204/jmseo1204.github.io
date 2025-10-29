@@ -3,8 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <a href='https://en.snu.ac.kr/'>Seoul National University, Electrical and Computer Engineering</a>. 
-  
+  <a href='https://en.snu.ac.kr/'>Seoul National University, Electrical and Computer Engineering</a>.
 
 profile:
   align: right

@@ -1,6 +1,6 @@
 github_users:
   - jmseo1204
- # - alshedivat
+  # - alshedivat
 
 repo_description_lines_max: 1
 
@@ -10,4 +10,3 @@ github_repos:
   - jmseo1204/Kaggle_KG_distilation_to_classify_noised_label
   - jmseo1204/NOISY_IMAGE_SEQ_TO_TEXT_SEQ
   - jmseo1204/COXWAVE_RAG_AND_KNOWLEDGE_GRAPH
-  
