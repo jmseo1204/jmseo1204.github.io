@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /github/
-title: github
+permalink: /Repositories/
+title: Repositories
 description: https://github.com/jmseo1204/
 nav: true
 nav_order: 4

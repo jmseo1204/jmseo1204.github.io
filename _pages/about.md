@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
   <a href='https://en.snu.ac.kr/'>Seoul National University, Electrical and Computer Engineering</a>.
