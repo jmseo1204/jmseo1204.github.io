@@ -3,8 +3,9 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  <a href='https://en.snu.ac.kr/'>Seoul National University, </a>
-  <a href='https://ece.snu.ac.kr/en'>Electrical and Computer Engineering</a>.
+  <a href='https://en.snu.ac.kr/'>Seoul National University</a>
+  <br>
+  <a href='https://ece.snu.ac.kr/en'> Department of Electrical and Computer Engineering</a>
 
 profile:
   align: right
