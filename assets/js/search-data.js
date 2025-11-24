@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "Repositories",
-          description: "You can find more projects on https://github.com/jmseo1204/",
+          description: "You can find more projects on github.com/jmseo1204",
           section: "Navigation",
           handler: () => {
             window.location.href = "/Repositories/";
@@ -124,8 +124,15 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/jmseo1204", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-velog',
+        title: 'Velog',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://velog.io/@jmseo1204", "_blank");
+        },
+      },{
+        id: 'social-naver_blog',
+        title: 'Naver_blog',
         section: 'Socials',
         handler: () => {
           window.open("https://blog.naver.com/tjwjdals45", "_blank");
