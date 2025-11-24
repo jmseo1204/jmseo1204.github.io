@@ -226,6 +226,8 @@ GEM
       time
       uri
     ostruct (0.6.1)
+    ox (2.14.23)
+      bigdecimal (>= 3.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.2)
@@ -309,8 +311,10 @@ DEPENDENCIES
   jekyll-toc
   jekyll-twitter-plugin
   jemoji
+  nokogiri
   observer
   ostruct
+  ox
 
 BUNDLED WITH
    2.6.9

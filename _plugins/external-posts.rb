@@ -12,6 +12,9 @@ module ExternalPosts
     def generate(site)
       if site.config['external_sources'] != nil
         site.config['external_sources'].each do |src|
+          # Check if the source is enabled (default to true if not specified)
+          next if src.key?('enabled') && !src['enabled']
+
           puts "Fetching external posts from #{src['name']}:"
           if src['rss_url']
             fetch_from_rss(site, src)
@@ -23,10 +26,14 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
-      return if xml.nil?
-      feed = Feedjira.parse(xml)
-      process_entries(site, src, feed.entries)
+      begin
+        xml = HTTParty.get(src['rss_url']).body
+        return if xml.nil?
+        feed = Feedjira.parse(xml)
+        process_entries(site, src, feed.entries)
+      rescue => e
+        puts "Error fetching external posts from #{src['name']}: #{e.message}"
+      end
     end
 
     def process_entries(site, src, entries)
@@ -59,7 +66,20 @@ module ExternalPosts
       doc.data['external_source'] = source_name
       doc.data['title'] = content[:title]
       doc.data['feed_content'] = content[:content]
-      doc.data['description'] = content[:summary]
+      
+      # Parse content to extract thumbnail and clean description
+      parsed_content = Nokogiri::HTML(content[:summary])
+      
+      # Extract first image as thumbnail if not already present
+      if !content[:thumbnail]
+        img = parsed_content.at_css('img')
+        doc.data['thumbnail'] = img['src'] if img
+      end
+
+      # Strip HTML and truncate for description
+      text_content = parsed_content.text.strip.gsub(/\s+/, ' ')
+      doc.data['description'] = text_content.length > 200 ? text_content[0...200] + "..." : text_content
+      
       doc.data['date'] = content[:published]
       doc.data['redirect'] = url
       doc.content = content[:content]

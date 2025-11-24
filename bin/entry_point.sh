@@ -3,6 +3,8 @@ set -euo pipefail
 
 echo "Entry point script running"
 
+bundle check || bundle install
+
 CONFIG_FILE=_config.yml
 
 # Function to manage Gemfile.lock
