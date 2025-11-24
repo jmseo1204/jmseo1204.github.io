@@ -49,8 +49,12 @@ linkedin_username: jmseo1204 # your LinkedIn user name
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  # logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  logo: assets/img/naver_blog.png # can be png, svg, jpg
-  title: Custom Social
+velog: # Unique key 1
+  logo: assets/img/Velog.png
+  title: Velog
+  url: https://velog.io/@jmseo1204
+
+naver_blog: # Unique key 2
+  logo: assets/img/naver_blog.png
+  title: Naver Blog
   url: https://blog.naver.com/tjwjdals45
