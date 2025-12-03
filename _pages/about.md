@@ -34,7 +34,7 @@ Hi, I'm Jungmin Seo, an undergraduate student from South Korea.
 
 Mathematical analysis is one of my strengths, and handling visible objects has always been intriguing to me.
 
-Therefore, Computer Vision is my most interesting research field, especially 3D reconstruction, Diffusion, and SLAM. My motivation comes from the moments when I feel that what I am making might be the first trial in the world.
+Therefore, Computer Vision is my most interesting research field, especially Embodied AI, Diffusion-based Planning, and 3D Scene Representation/Reconstruction. My motivation comes from the moments when I feel that what I am making might be the first trial in the world.
 
 To refresh myself, I enjoy lifting weights, writing my own novels, and consuming any type of media based on Science Fiction. I love almost every kind of physical activity, except for ball games :(
 
